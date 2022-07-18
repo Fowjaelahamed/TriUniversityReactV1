@@ -1,0 +1,63 @@
+.global-container {
+    padding-top: 5%;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(13, 117, 82);
+    background: #222d32 !important;
+    font-family: 'Roboto', sans-serif;
+}
+.global-container img {
+    margin-left: 10px;
+}
+.global-container form {
+    padding-top: 10px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.login-form {
+    width: 380px;
+    height: 500px;
+    margin: 20px;
+    background: #1a2226 !important;
+    border-radius: 10px !important;
+}
+input[id="exampleInputEmail1"],
+input[id="exampleInputpassword1"]{
+    background: #1a2226;
+    border: 2px solid #0db8de;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+input[id="exampleInputEmail1"]:focus,
+input[id="exampleInputpassword1"]:focus{
+    outline: none;
+    border: none;
+    background: #f5fdff;
+}
+.card-title {
+    font-weight: 900;
+    padding-top: 20px;
+}
+.btn-login {
+    background: #0db8de !important;
+    font-size: 14px;
+    border-radius: 10px !important;
+}
+#login-footer{
+    height: 100%;
+    background: #222d32 !important;
+    padding: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+#loginhr {
+    height: 2px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: #1b8f7a;
+}
+p {
+    margin-bottom: 10px;
+}
